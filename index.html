@@ -31,11 +31,17 @@
   <body>
 
    <form id="searchForm">
-   <input type="text" name="q">
-   <label>Google<input type="radio" id='google' name="engine" value='google'/></label>
-   <label>DuckDuckGo<input type="radio" id='duckduckgo' name="engine" value='duckduckgo'/></label>
-   <label>Bing<input type="radio" id='Bing' name="engine" value='Bing'/></label>
-   <label>Ask<input type="radio" id='Ask' name="engine" value='Ask'/></label>
+	<input type="text" name="q"/>
+	<input type="radio" id="google" name="engine" value="google">
+	<label for="google">Google</label>
+	<input type="radio" id="duckDuckGo" name="engine" value="duckDuckGo">
+	<label for="duckDuckGo">DuckDuckGo</label>
+	<input type="radio" id="bing" name="engine" value="bing">
+	<label for="bing">Bing</label>
+	<input type="radio" id="ask" name="engine" value="ask">
+	<label for="ask">Ask</label>
+
+	<button type="submit">Go!</button>
 
    
    <button type="submit" value="Go">   
